@@ -1,0 +1,15 @@
+{
+            "start": {
+                "action": "IVR",
+                "version": "2.1.0",
+                "message": "AgentLog",
+                "selection0": "http://127.0.0.1:8000/example.json",
+                "selection1": "operator"
+            },
+            "operator": {
+                "action": "PlayPrompt",
+                "version": "1.3.2",
+                "message": "AgentLog"
+            },
+        }
+}
